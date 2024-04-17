@@ -12,9 +12,9 @@ Our team consists of the following members:
 - [Shaine Goh Si Hui](https://www.github.com/soloplxya) (A0220084U)
 - [Thia Su Mian](https://www.github.com/tsumian) (A0214460R)
 - [Lin Hui Xin Tiffany](https://www.github.com/Tiffanylin21) (A0223682E)
-- [Ng Xing Yu](https://www.github.com/ngxingyu)
-- [Guo Bo Kun](https://www.github.com/bokung) 
-- [Wang Yi Fan](https://www.github.com/pudding317) 
+- [Ng Xing Yu](https://www.github.com/ngxingyu) (A0234386Y)
+- [Guo Bo Kun](https://www.github.com/bokung) (A0275632B)
+- [Wang Yi Fan](https://www.github.com/pudding317) (A0239830B)
 
 ## Models 
 We implemented two standard architectures commonly used in machine translation: a recurrent neural network (RNN) model and a transformer model. An outline of the key hyperparameters and model architecture is listed below:
@@ -55,7 +55,19 @@ Our results show that a transformer model utilising relative positional encoding
 More details can be found in our paper [here]().
 
 ## Structure of the Repository
-To be added 
+This section provides an overview of the organization of the repository, outlining the purpose of each directory and highlighting important files. By detailing the structure, users can easily locate specific components or resources within the project. 
 
+- rnn (Contains all source files for the RNN model)
+- transformer (Contains all source files for the transformer model, includes SPM dependencies)
+  - README.md
+  - all_sentences.txt
+  - spm_beam_search_model.model
+  - spm_beam_search_model.vocab
+  - transformer-attention-heatmaps-beamsearch-decoder.ipynb
+  - transformer-base-spacy-tokenizer.ipynb
+  - transformer-intrust-loss.ipynb
+  - transformer-relativePE.ipynb
+  - transformer-spm-unigram-tokenisation.ipynb
+  - transformer-visualization.ipynb
 
 
