@@ -9,12 +9,12 @@ Our project aims to build upon existing research by systematically exploring enh
 
 ## Our Team
 Our team consists of the following members: 
-- [Shaine Goh Si Hui](github.com/soloplxya) (A0220084U)
-- [Thia Su Mian](github.com/tsumian) (A0214460R)
-- [Lin Hui Xin Tiffany](github.com/Tiffanylin21) (A0223682E)
-- [Ng Xing Yu](github.com/ngxingyu)
-- [Guo Bo Kun](github.com/bokung) 
-- [Wang Yi Fan](github.com/pudding317) 
+- [Shaine Goh Si Hui](https://www.github.com/soloplxya) (A0220084U)
+- [Thia Su Mian](https://www.github.com/tsumian) (A0214460R)
+- [Lin Hui Xin Tiffany](https://www.github.com/Tiffanylin21) (A0223682E)
+- [Ng Xing Yu](https://www.github.com/ngxingyu)
+- [Guo Bo Kun](https://www.github.com/bokung) 
+- [Wang Yi Fan](https://www.github.com/pudding317) 
 
 ## Models 
 We implemented two standard architectures commonly used in machine translation: a recurrent neural network (RNN) model and a transformer model. An outline of the key hyperparameters and model architecture is listed below:
