@@ -13,8 +13,8 @@ Our team consists of the following members:
 - [Thia Su Mian](https://www.github.com/tsumian) (A0214460R)
 - [Lin Hui Xin Tiffany](https://www.github.com/Tiffanylin21) (A0223682E)
 - [Ng Xing Yu](https://www.github.com/ngxingyu) (A0234386Y)
-- [Guo Bo Kun](https://www.github.com/bokung) (A0275632B)
-- [Wang Yi Fan](https://www.github.com/pudding317) (A0239830B)
+- [Guo Bokun](https://www.github.com/bokung) (A0239830B)
+- [Wang Yi Fan](https://www.github.com/pudding317) (A0275632B)
 
 ## Models 
 We implemented two standard architectures commonly used in machine translation: a recurrent neural network (RNN) model and a transformer model. An outline of the key hyperparameters and model architecture is listed below:
@@ -51,7 +51,7 @@ Additionally, cutting edge XAI (Explainable AI) visualization tools were also ut
 - BertViz
 
 ## Results 
-Our results show that a transformer model utilising relative positional encodings, unigram tokenization, an in-trust loss function generates the highest `COMET` and `BLEURT` scores. 
+Our results show that a transformer model utilising relative positional encodings, unigram tokenization, and in-trust loss function generates the highest `COMET` and `BLEURT` scores. 
 > More details about our project can be found in the pdf here: [`CS4248_Group31_Final_Report.pdf`](https://www.google.com)!!
 
 ## Structure of the Repository
@@ -93,7 +93,7 @@ This section provides an overview of the organization of the repository, outlini
 - You will require some python 3 environment with pytorch installed.
 
 ### Notebooks
-Most of the code provided for transformer model training can be found in the form of a python notebook `.ipynb` files.
+Most of the code provided can be found in the form of python notebook `.ipynb` files. 
 
 There are two ways to run python notebooks:
 
@@ -104,15 +104,15 @@ There are two ways to run python notebooks:
 
 Once installed, you can use the command `jupyter notebook` to launch the notebook.
 
-As our programs are quite CPU intensive due to intensive deep learning training, it is recommended that your local GPU have specs similar to that of the `NVIDIA V100 GPU`.
+As our programs are quite GPU intensive due to intensive deep learning training, it is recommended that your local GPU have specs similar to that of the `NVIDIA V100 GPU`.
 
 
-#### Colab
+#### Google Colab
 The set-up for colab is much simpler. You simply need to upload the notebooks onto your drive. Make sure relevant dependencies (for e.g. models to be loaded, pre-training data) is self-contained within the same directory before running any programs. 
 
 > Each notebook contains it own set of specific instructions so it would be good to follow according to the instructions given within each notebook. 
 
-For higher computing power, more GPU can be purchased either through a `pay-as-you-go` scheme or `ColabPro`
+For higher computing power, more GPU can be purchased either through a `pay-as-you-go` scheme or `Colab Pro`
 
 
 
