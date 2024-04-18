@@ -128,17 +128,19 @@ For higher computing power, more GPU can be purchased either through a `pay-as-y
 - We would like to thank our mentor, Rishabh Anand, for his guidance and support throughout the project. We would also like to thank the teaching team for their valuable feedback and suggestions.
 
 ## References
-- [Chris2024](https://github.com/chrisvdweth/nus-cs4248x)
-- [HuggingFace](https://huggingface.co/transformers/)
+- [Chris2024](https://github.com/chrisvdweth/nus-cs4248x): we referenced the RNN and Transformer implementations from this repository.
 - [COMET](https://github.com/Unbabel/COMET)
 - [BLEURT](https://github.com/google-research/bleurt)
-- [BertViz](https://github.com/jessevig/bertviz)
-- [sentencepiece](https://github.com/google/sentencepiece)
-- [torchtext](https://pytorch.org/text/stable/index.html)
-- [torch](https://pytorch.org/)
-- [lightning](https://www.pytorchlightning.ai/)
-- [datasets](https://huggingface.co/docs/datasets/)
-- [Low-resource-text-translation](https://github.com/WENGSYX/Low-resource-text-translation)
+- [rouge](https://github.com/google-research/google-research/tree/master/rouge)
+- [BertViz](https://github.com/jessevig/bertviz): used to visualize self-attention values
+- [SentencePiece](https://github.com/google/sentencepiece): We made use of their implementation of the BPE and Unigram tokenizers
+- [Spacy](https://spacy.io/): We made use of their pretrained tokenizer.
+- [TorchText](https://pytorch.org/text/stable/index.html)
+- [PyTorch](https://pytorch.org/)
+- [PyTorch Lightning](https://www.pytorchlightning.ai/): used for implementation of the training code for RNN.
+- [HuggingFace](https://huggingface.co/): We made use of HuggingFace Datasets for storing our processed dataset.
+- [Low-resource-text-translation](https://github.com/WENGSYX/Low-resource-text-translation) for their reference implementation of the Incomplete-Trust Loss function
+- [OpenNMT](https://github.com/OpenNMT/OpenNMT-py) for their baseline implementation of greedy and beam search decoder
 
 ## Issues 
 Feel free to contact anyone of us if you notice any issues in our code! You can do this through creating an issue in github. Refer to this [link](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) for more details on how to do so.
