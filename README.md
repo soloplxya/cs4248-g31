@@ -51,7 +51,7 @@ Additionally, cutting edge XAI (Explainable AI) visualization tools were also ut
 - BertViz
 
 ## Results 
-Our results show that a transformer model utilising relative positional encodings, unigram tokenization, an in-trust loss function generates the highest `COMET` and `BLEURT` scores. 
+Our results show that a transformer model utilising relative positional encodings, unigram tokenization, and in-trust loss function generates the highest `COMET` and `BLEURT` scores. 
 > More details about our project can be found in the pdf here: [`CS4248_Group31_Final_Report.pdf`](https://www.google.com)!!
 
 ## Structure of the Repository
@@ -79,7 +79,7 @@ This section provides an overview of the organization of the repository, outlini
 ## Running Instructions
 
 ### Notebooks
-Most of the code provided can be found in the form of a python notebook `.ipynb` files. 
+Most of the code provided can be found in the form of python notebook `.ipynb` files. 
 
 There are two ways to run python notebooks:
 
@@ -90,7 +90,7 @@ There are two ways to run python notebooks:
 
 Once installed, you can use the command `jupyter notebook` to launch the notebook.
 
-As our programs are quite CPU intensive due to intensive deep learning training, it is recommended that your local GPU have specs similar to that of the `NVIDIA V100 GPU`.
+As our programs are quite GPU intensive due to intensive deep learning training, it is recommended that your local GPU have specs similar to that of the `NVIDIA V100 GPU`.
 
 
 #### Google Colab
