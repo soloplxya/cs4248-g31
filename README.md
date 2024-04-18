@@ -33,7 +33,7 @@ We implemented two standard architectures commonly used in machine translation: 
 ## Experimentation Techniques
 The key experimentation techniques modified in this research project can be broken down into the following components: 
 - Tokenization methods
-    -  Byte-Pair Encoding 
+    - Byte-Pair Encoding 
     - Unigram Tokenization
 - Encoding Methods
     - Relative Positional Encoding 
@@ -80,7 +80,7 @@ This section provides an overview of the organization of the repository, outlini
   - spm_beam_search_model.model
   - spm_beam_search_model.vocab
   - transformer-attention-heatmaps-beamsearch-decoder.ipynb
-  - transformer-base-spacy-tokenizer.ipynb
+  - transformer-base-bpe-tokenizer.ipynb
   - transformer-intrust-loss.ipynb
   - transformer-relativePE.ipynb
   - transformer-spm-unigram-tokenisation.ipynb
@@ -134,7 +134,6 @@ For higher computing power, more GPU can be purchased either through a `pay-as-y
 - [BLEURT](https://github.com/google-research/bleurt)
 - [BertViz](https://github.com/jessevig/bertviz)
 - [sentencepiece](https://github.com/google/sentencepiece)
-- [spacy](https://spacy.io/)
 - [torchtext](https://pytorch.org/text/stable/index.html)
 - [torch](https://pytorch.org/)
 - [lightning](https://www.pytorchlightning.ai/)
