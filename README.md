@@ -1,4 +1,4 @@
-# Do You Truly Understand Your Language Models? Dissecting Translation Through Model Alterations
+# Do You Truly Understand Your Language Models? Dissecting Translation Through Model Alterations 🤔🤔🤔
 *CS4248 Group 31, mentored by Rishabh Anand*
 
 
@@ -52,13 +52,14 @@ Additionally, cutting edge XAI (Explainable AI) visualization tools were also ut
 
 ## Results 
 Our results show that a transformer model utilising relative positional encodings, unigram tokenization, an in-trust loss function generates the highest `COMET` and `BLEURT` scores. 
-More details can be found in our paper [here]().
+> More details about our project can be found in the pdf here: [`CS4248_Group31_Final_Report.pdf`](https://www.google.com)!!
 
 ## Structure of the Repository
-This section provides an overview of the organization of the repository, outlining the purpose of each directory and highlighting important files. By detailing the structure, users can easily locate specific components or resources within the project. 
+This section provides an overview of the organization of the repository, outlining the purpose of each directory and highlighting important files. 
 
-- rnn (Contains all source files for the RNN model)
-- transformer (Contains all source files for the transformer model, includes SPM dependencies)
+```
+|-rnn/
+ -transformer/
   - README.md
   - all_sentences.txt
   - spm_beam_search_model.model
@@ -69,5 +70,35 @@ This section provides an overview of the organization of the repository, outlini
   - transformer-relativePE.ipynb
   - transformer-spm-unigram-tokenisation.ipynb
   - transformer-visualization.ipynb
+```
+
+- `rnn/` contains all notebooks for our RNN model
+- `transformer/` contains all notebooks for our transformer model
+ 
+
+## Running Instructions
+
+### Notebooks
+Most of the code provided can be found in the form of a python notebook `.ipynb` files. 
+
+There are two ways to run python notebooks:
+
+
+#### Jupyter Notebook (Locally)
+> Installation: If you haven't already installed Jupyter Notebook or JupyterLab, you can do so using pip (Python's package installer). Open your terminal or command prompt and run:
+```pip install notebook``` 
+
+Once installed, you can use the command `jupyter notebook` to launch the notebook.
+
+As our programs are quite CPU intensive due to intensive deep learning training, it is recommended that your local GPU have specs similar to that of the `NVIDIA V100 GPU`.
+
+
+#### Collab
+The set-up for collab is much simpler. You simply need to upload the notebooks onto your drive. Make sure relevant dependencies (for e.g. models to be loaded, pre-training data) is self-contained within the same directory before running any programs. 
+
+> Each notebook contains it own set of specific instructions so it would be good to follow according to the instructions given within each notebook. 
+
+For higher computing power, more GPU can be purchased either through a `pay-as-you-go` scheme or `CollabPro`
+
 
 
