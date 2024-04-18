@@ -93,12 +93,12 @@ Once installed, you can use the command `jupyter notebook` to launch the noteboo
 As our programs are quite CPU intensive due to intensive deep learning training, it is recommended that your local GPU have specs similar to that of the `NVIDIA V100 GPU`.
 
 
-#### Collab
-The set-up for collab is much simpler. You simply need to upload the notebooks onto your drive. Make sure relevant dependencies (for e.g. models to be loaded, pre-training data) is self-contained within the same directory before running any programs. 
+#### Google Colab
+The set-up for colab is much simpler. You simply need to upload the notebooks onto your drive. Make sure relevant dependencies (for e.g. models to be loaded, pre-training data) is self-contained within the same directory before running any programs. 
 
 > Each notebook contains it own set of specific instructions so it would be good to follow according to the instructions given within each notebook. 
 
-For higher computing power, more GPU can be purchased either through a `pay-as-you-go` scheme or `CollabPro`
+For higher computing power, more GPU can be purchased either through a `pay-as-you-go` scheme or `ColabPro`
 
 
 
