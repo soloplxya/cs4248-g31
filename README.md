@@ -59,6 +59,16 @@ This section provides an overview of the organization of the repository, outlini
 
 ```
 |-rnn/
+  - README.md
+  - requirements.txt
+  - rnn.py
+  - data.py
+  - eval.py
+  - rnn_model.py
+  - rnn_inference.py
+  - Some other utility scripts used
+
+
 |-transformer/
   - README.md
   - all_sentences.txt
@@ -72,14 +82,18 @@ This section provides an overview of the organization of the repository, outlini
   - transformer-visualization.ipynb
 ```
 
-- `rnn/` contains all notebooks for our RNN model
+- `rnn/` contains all scripts for our RNN model
 - `transformer/` contains all notebooks for our transformer model
  
 
 ## Running Instructions
 
+### RNN
+- To run the RNN models, follow the instructions in the [rnn/README.md](./rnn/README.md) file.
+- You will require some python 3 environment with pytorch installed.
+
 ### Notebooks
-Most of the code provided can be found in the form of a python notebook `.ipynb` files. 
+Most of the code provided for transformer model training can be found in the form of a python notebook `.ipynb` files.
 
 There are two ways to run python notebooks:
 
@@ -93,12 +107,12 @@ Once installed, you can use the command `jupyter notebook` to launch the noteboo
 As our programs are quite CPU intensive due to intensive deep learning training, it is recommended that your local GPU have specs similar to that of the `NVIDIA V100 GPU`.
 
 
-#### Collab
-The set-up for collab is much simpler. You simply need to upload the notebooks onto your drive. Make sure relevant dependencies (for e.g. models to be loaded, pre-training data) is self-contained within the same directory before running any programs. 
+#### Colab
+The set-up for colab is much simpler. You simply need to upload the notebooks onto your drive. Make sure relevant dependencies (for e.g. models to be loaded, pre-training data) is self-contained within the same directory before running any programs. 
 
 > Each notebook contains it own set of specific instructions so it would be good to follow according to the instructions given within each notebook. 
 
-For higher computing power, more GPU can be purchased either through a `pay-as-you-go` scheme or `CollabPro`
+For higher computing power, more GPU can be purchased either through a `pay-as-you-go` scheme or `ColabPro`
 
 
 
