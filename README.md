@@ -13,8 +13,8 @@ Our team consists of the following members:
 - [Thia Su Mian](https://www.github.com/tsumian) (A0214460R)
 - [Lin Hui Xin Tiffany](https://www.github.com/Tiffanylin21) (A0223682E)
 - [Ng Xing Yu](https://www.github.com/ngxingyu) (A0234386Y)
-- [Guo Bo Kun](https://www.github.com/bokung) (A0275632B)
-- [Wang Yi Fan](https://www.github.com/pudding317) (A0239830B)
+- [Guo Bokun](https://www.github.com/bokung) (A0239830B)
+- [Wang Yi Fan](https://www.github.com/pudding317) (A0275632B)
 
 ## Models 
 We implemented two standard architectures commonly used in machine translation: a recurrent neural network (RNN) model and a transformer model. An outline of the key hyperparameters and model architecture is listed below:
