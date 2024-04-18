@@ -1,0 +1,8 @@
+lightning==2.0.2
+sentencepiece==0.2.0
+datasets
+unbabel-comet
+sacrebleu
+rouge-score
+git+https://github.com/lucadiliello/bleurt-pytorch.git
+OpenNMT-py
