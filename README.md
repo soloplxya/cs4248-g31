@@ -59,7 +59,7 @@ This section provides an overview of the organization of the repository, outlini
 
 ```
 |-rnn/
- -transformer/
+|-transformer/
   - README.md
   - all_sentences.txt
   - spm_beam_search_model.model
