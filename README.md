@@ -19,12 +19,16 @@ Our team consists of the following members:
 ## Models 
 We implemented two standard architectures commonly used in machine translation: a recurrent neural network (RNN) model and a transformer model. An outline of the key hyperparameters and model architecture is listed below:
 - Baseline Recurent Neural Network model
+  - Architecture adapted from [Chris2024](https://github.com/chrisvdweth/nus-cs4248x/blob/master/3-neural-nlp/Section%203.2%20-%20RNN%20Machine%20Translation.ipynb)
   - Sequence-to-sequence architecture 
   - Encoder-Decoder Framework
+  - RNN/GRU/LSTM Encoder and Decoder
+  - Cross-Entropy Loss / Incomplete-Trust Loss
+  - Fixed or Variable teacher forcing probability
 - Baseline Transformer model 
   - Architecture adapted from [Chris2024](https://github.com/chrisvdweth/nus-cs4248x/blob/master/3-neural-nlp/Section%204.2%20-%20Transformer%20Machine%20Translation.ipynb)
   - SPM BytePair Tokeniser
-  - Cross-Entropy Loss 
+  - Cross-Entropy Loss / Incomplete-Trust Loss
   - trained with 32 epochs 
 ## Experimentation Techniques
 The key experimentation techniques modified in this research project can be broken down into the following components: 
@@ -115,4 +119,20 @@ The set-up for colab is much simpler. You simply need to upload the notebooks on
 For higher computing power, more GPU can be purchased either through a `pay-as-you-go` scheme or `Colab Pro`
 
 
+## Acknowledgements
+- We would like to thank our mentor, Rishabh Anand, for his guidance and support throughout the project. We would also like to thank the teaching team for their valuable feedback and suggestions.
+
+## References
+- [Chris2024](https://github.com/chrisvdweth/nus-cs4248x)
+- [HuggingFace](https://huggingface.co/transformers/)
+- [COMET](https://github.com/Unbabel/COMET)
+- [BLEURT](https://github.com/google-research/bleurt)
+- [BertViz](https://github.com/jessevig/bertviz)
+- [sentencepiece](https://github.com/google/sentencepiece)
+- [spacy](https://spacy.io/)
+- [torchtext](https://pytorch.org/text/stable/index.html)
+- [torch](https://pytorch.org/)
+- [lightning](https://www.pytorchlightning.ai/)
+- [datasets](https://huggingface.co/docs/datasets/)
+- [Low-resource-text-translation](https://github.com/WENGSYX/Low-resource-text-translation)
 

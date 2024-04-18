@@ -15,8 +15,11 @@ python rnn-experiments.py -h # View valid arguments
 # Example command
 python rnn-experiments.py --encoder_type=rnn --decoder_type=rnn --hidden_dim=2 --num_layers=1 --batch_size=2 --max_epochs=1 --learning_rate=0.001 --bidirectional=False --max_epochs=1
 ```
+## Instructions
+- The `rnn-experiments.py` script will train the RNN models with the specified hyperparameters and save the results in the `results` folder.
 
-The `rnn-experiments.py` script will train the RNN models with the specified hyperparameters and save the results in the `results` folder.
+- The script uses huggingface datasets to handle data loading and preprocessing.
+- The sentencepiece tokenizer will be trained and saved locally on the first run.
 
 ## Supported Arguments
 - `--encoder_type`: Type of encoder (rnn, lstm, gru)
