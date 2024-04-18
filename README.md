@@ -56,7 +56,7 @@ Additionally, cutting edge XAI (Explainable AI) visualization tools were also ut
 
 ## Results 
 Our results show that a transformer model utilising relative positional encodings, unigram tokenization, and in-trust loss function generates the highest `COMET` and `BLEURT` scores. 
-> More details about our project can be found in the pdf here: [`CS4248_Group31_Final_Report.pdf`](https://www.google.com)!!
+> More details about our project can be found in the pdf here: [`CS4248_Group31_Final_Report.pdf`](https://drive.google.com/file/d/15Ax1ya4QtyHhSnHNUo7w4pro-UjV3AWP/view?usp=sharing)!!
 
 ## Structure of the Repository
 This section provides an overview of the organization of the repository, outlining the purpose of each directory and highlighting important files. 
