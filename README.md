@@ -74,6 +74,7 @@ This section provides an overview of the organization of the repository, outlini
 
 
 |-transformer/
+  |- models/
   - README.md
   - all_sentences.txt
   - spm_beam_search_model.model
@@ -88,9 +89,13 @@ This section provides an overview of the organization of the repository, outlini
 
 - `rnn/` contains all scripts for our RNN model
 - `transformer/` contains all notebooks for our transformer model
+- `transformer/model` contains some sample loaded models 
  
 
 ## Running Instructions
+
+> [!IMPORTANT]
+> Please ensure that you are using Python runtime version `3.10.12` when running the notebooks/python scripts locally. You can adjust this configuration through Anaconda or downloading the relevant packages on the python website.
 
 ### RNN
 - To run the RNN models, follow the instructions in the [rnn/README.md](./rnn/README.md) file.
@@ -136,3 +141,5 @@ For higher computing power, more GPU can be purchased either through a `pay-as-y
 - [datasets](https://huggingface.co/docs/datasets/)
 - [Low-resource-text-translation](https://github.com/WENGSYX/Low-resource-text-translation)
 
+## Issues 
+Feel free to contact anyone of us if you notice any issues in our code! You can do this through creating an issue in github. Refer to this [link](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) for more details on how to do so.
